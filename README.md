@@ -22,8 +22,8 @@ Type some inital info of your library, start hacking and change the world. How e
 
 1. `gulp clean`
 2. `gulp build`
-3. `gulp test`
-4. `gulp lint`
+3. `gulp lint`
+4. `gulp test`
 
 ### gulp build
 
@@ -31,7 +31,7 @@ Type some inital info of your library, start hacking and change the world. How e
 2. concat files to one file
 3. wrap the whole code with immediately-invoked function expression
 4. beautify the code
-5. write the file to `dest`
+5. write the file to `dest/`
 6. minify the code with uglify
 7. add header to minified file
 8. rename the file to have `.min` suffix

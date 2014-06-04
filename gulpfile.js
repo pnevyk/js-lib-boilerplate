@@ -11,7 +11,7 @@ var gulp = require('gulp'),
     gutil = require('gulp-util');
 
 var pkg = require('./package.json'),
-    banner = '/*  */\n',
+    banner = '/* <%= name => */\n',
     prepend = '(function () { \'use strict\';\n\n',
     append = '})();';
 
@@ -62,4 +62,4 @@ gulp.task('watch:test', function () {
     gulp.watch(['src/*.js', 'test/*.js'], ['test']);
 });
 
-gulp.task('default', ['clean', 'build', 'test', 'lint']);
+gulp.task('default', ['clean', 'build', 'lint', 'test']);
