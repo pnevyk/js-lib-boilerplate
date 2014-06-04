@@ -7,7 +7,7 @@ This is a basic boilerplate for small javascript libraries you want to write. It
 ```sh
 git clone git@github.com:nevyk/js-lib-boilerplate.git # clone repo
 mv js-lib-boilerplate <your-lib>                      # rename folder
-cd <your-lib>                                         # got to the folder
+cd <your-lib>                                         # go to the folder
 rm -rf .git                                           # delete .git folder
 git init                                              # initialize empty repo
 npm init                                              # initialize npm package
